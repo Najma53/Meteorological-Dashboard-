@@ -39,6 +39,17 @@ h2{
     padding: 10px;
 }
 
+.btn-primary{
+    border-style: groove;
+    background-color:rgb(143, 141, 141);
+    border-color: grey;
+}
+.btn-primary:hover{
+    color: black;
+    background-color: gray;
+    border-color: gray;
+}
+
 #forecast-title{
     width: 96%;
     background-color: black;
