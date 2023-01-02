@@ -46,7 +46,8 @@ I Navigated to my GitHub repository in the browser and then select the Settings 
 
 On the Settings page, scrolled down to the GitHub Pages section. Then, in the section labeled Source, select the main branch as my source.
 
-This led to my webpage viral https://najma53.github.io/Meteorological-Dashboard-
+This led to my webpage viral
+ https://najma53.github.io/Meteorological-Dashboard-/
 
 Step 3
 
