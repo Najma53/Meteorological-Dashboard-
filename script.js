@@ -70,7 +70,7 @@ $(document).ready(function() {
 		$("#humidity").text(response.main.humidity + " %");
   
 		// Wind Speed: MPH
-		$("#wind-speed").text(response.wind.speed + " MPH");
+		$("#wind-speed").text(response.wind.speed + " m/s");
 		console.log(response)
 
         // 5 day forecast
@@ -137,7 +137,7 @@ $(document).ready(function() {
 						<p><img id="weather-icon" src="https://openweathermap.org/img/wn/${weatherIcon}.png"/></p>
 						<p>Temp: ${response.list[i].main.temp} °C</p>
 					   <p>Humidity: ${response.list[i].main.humidity}% </p>
-					   <p> Wind: ${response.list[i].wind.speed} MPH </p>
+					   <p> Wind: ${response.list[i].wind.speed} m/s </p>
 					</div>
 				</div>
 			<div>

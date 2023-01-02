@@ -41,20 +41,22 @@ h4{
 
 .btn-primary{
     border-style: groove;
-    background-color:rgb(143, 141, 141);
-    border-color: grey;
+    background-color:rgb(143, 141, 141) !important;
+    border-color: gray !important;
 }
 .btn-primary:hover{
     color: black;
-    background-color: gray;
-    border-color: gray;
+    background-color: gray !important;
+    border-color: gray !important;
 }
 
-.search-button{
+
+
+/* .search-button{
     border-style: groove;
     background-color:rgb(143, 141, 141);
-    border-color: grey;
-}
+    border-color: grey !important;
+} */
 
 #forecast-title{
     width: 96%;
@@ -79,4 +81,16 @@ h4{
 
 .list-group-item:hover {
     color:darkgray;
+}
+
+.footer {
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    margin-bottom: 10px;
 }
